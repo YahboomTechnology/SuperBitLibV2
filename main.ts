@@ -672,20 +672,20 @@ namespace SuperBitV2_Analog {
     }
 
     export enum mwAnalogNum {
-        //% blockId="AP4P6" block="AP4P6"
+        //% blockId="P4P6" block="P4P6"
         AP4P6 = 1,
-        //% blockId="AP1P2" block="AP1P2"
+        //% blockId="P1P2" block="P1P2"
         AP1P2 = 2,
-        //% blockId="AP0P3" block="AP0P3"
+        //% blockId="P0P3" block="P0P3"
         AP0P3 = 3,
-        //% blockId="AP10P9" block="AP10P9"
+        //% blockId="P10P9" block="P10P9"
         AP10P9 = 4
     }	
 	
     export enum mwAnalogNum2 {
-        //% blockId="AP1P2" block="AP1P2"
+        //% blockId="P1P2" block="P1P2"
         AP1P2 = 1,
-        //% blockId="AP0P3" block="AP0P3"
+        //% blockId="P0P3" block="P0P3"
         AP0P3 = 2
     }	
 
