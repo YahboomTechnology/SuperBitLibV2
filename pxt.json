@@ -1,0 +1,22 @@
+{
+    "name": "SuperBitV2",
+    "version": "1.0.0",
+    "description": "Extension for YahBoom SuperBitV2",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:lzty634158/pxt-neopixel",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh-cn/SuperBitV2-strings.json",
+        "_locales/zh-tw/SuperBitV2-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}
