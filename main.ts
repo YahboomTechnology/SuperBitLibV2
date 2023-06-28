@@ -280,6 +280,7 @@ namespace SuperBitV2 {
 
     }
 
+    /*
     //% blockId=SuperBitV2_Servo3 block="Servo(360°)|num %num|pos %pos|value %value"
     //% weight=96
     //% blockGap=10
@@ -308,6 +309,8 @@ namespace SuperBitV2 {
        
 
     }
+    */
+   
     //% blockId=SuperBitV2_MotorRun block="Motor|%index|speed(-255~255) %speed"
     //% weight=93
     //% speed.min=-255 speed.max=255
