@@ -3,6 +3,7 @@
   "SuperBitV2.Music|block": "音樂播放|%index",
   "SuperBitV2.Servo|block": "舵機(180)|編號 %num|角度 %value",
   "SuperBitV2.Servo2|block": "舵機(270)|編號 %num|角度 %value",
+  "SuperBitV2.Servo3|block": "舵機(360)|編號 %num|角度 %value",
   "SuperBitV2.MotorRun|block": " 直流電機|%index|速度(-255~255) %speed",
   "SuperBitV2.MotorRunDual|block": " 直流電機|%motor1|速度(-255~255) %speed1|%motor2|速度(-255~255) %speed2",
   "SuperBitV2.MotorStopAll|block": "停止所有電機",

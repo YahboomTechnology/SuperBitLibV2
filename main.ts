@@ -280,7 +280,6 @@ namespace SuperBitV2 {
 
     }
 
-    /*
     //% blockId=SuperBitV2_Servo3 block="Servo(360°)|num %num|pos %pos|value %value"
     //% weight=96
     //% blockGap=10
@@ -291,17 +290,17 @@ namespace SuperBitV2 {
         // 50hz: 20,000 us
         
         if (pos == enPos.stop) {
-            let us = (86 * 1800 / 180 + 600); // 0.6 ~ 2.4
+            let us = (110 * 1800 / 180 + 600); // 0.6 ~ 2.4 error:86->110
             let pwm = us * 4096 / 20000;
             setPwm(num, 0, pwm);
         }
         else if(pos == enPos.forward){ //0-90 -> 90 - 0
-            let us = ((90-value) * 1800 / 180 + 600); // 0.6 ~ 2.4
+            let us = ((110-value) * 1800 / 180 + 600); // 0.6 ~ 2.4 error:90->110
             let pwm = us * 4096 / 20000;
             setPwm(num, 0, pwm);
         }
-        else if(pos == enPos.reverse){ //0-90 -> 90 -180
-            let us = ((90+value) * 1800 / 180 + 600); // 0.6 ~ 2.4
+        else if(pos == enPos.reverse){ //0-90 -> 90 -180  error:90->110
+            let us = ((110+value) * 1800 / 180 + 600); // 0.6 ~ 2.4
             let pwm = us * 4096 / 20000;
             setPwm(num, 0, pwm);
         }
@@ -309,7 +308,7 @@ namespace SuperBitV2 {
        
 
     }
-    */
+    
    
     //% blockId=SuperBitV2_MotorRun block="Motor|%index|speed(-255~255) %speed"
     //% weight=93
